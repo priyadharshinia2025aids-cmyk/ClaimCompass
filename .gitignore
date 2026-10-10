@@ -1,0 +1,45 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*credentials*
+*secrets*
+
+# Local environments and private application storage
+.venv/
+venv/
+env/
+backend/storage/
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+build/
+out/
+.vite/
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Logs and local tooling
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.vscode/
+.DS_Store
+Thumbs.db
